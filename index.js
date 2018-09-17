@@ -21,3 +21,7 @@ function inc(n) {
   var decrement = n -= 1;
   return decrement
 }
+function makeInt(n) {
+  var integer = parseInt(n, 10)
+  return integer
+}
