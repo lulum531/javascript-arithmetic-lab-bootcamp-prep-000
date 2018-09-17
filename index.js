@@ -1,23 +1,20 @@
 function add(a, b) {
- return a + b
+  var result = a + b;
+  return result
 }
 function subtract(a, b) {
-  return a - b
+  var result = a - b;
+  return result
 }
 function multiply(a, b) {
-  return a * b
+  var result = a * b
+  return result
 }
 function divide(a, b) {
-  return a/b
+  var result = a / b
+  return result
 }
 function inc(n) {
-  return n += 1
-}
-function dec(n) {
-  return n -+ 1
-}function makeInt(n) {
-  return parseInt(n, 10)
-}
-function preserveDecimal(n) {
-  return parseFloat(n)
+  var increment = n += 1;
+  return increment
 }
